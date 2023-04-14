@@ -4,11 +4,13 @@
 class Soldado
 {
 public:
-	Arma* arma;
+	Arma* _arma;
 	Soldado();
 	void disparar();
 	void recogerArma(Arma* arma);
 	void dejarArma();
+	bool tieneArma();
+	void verArma();
 	~Soldado();
 };
 
