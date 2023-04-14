@@ -3,5 +3,6 @@
 class Escopeta :
     public Arma
 {
+  
 };
 
