@@ -3,6 +3,7 @@
 
 Soldado::Soldado()
 {
+	_arma = nullptr;
 }
 
 void Soldado::disparar()
