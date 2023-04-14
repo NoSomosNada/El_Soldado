@@ -8,7 +8,7 @@ void Soldado::disparar()
 {
 }
 
-void Soldado::recogerArma(Arma arma)
+void Soldado::recogerArma(Arma* arma)
 {
 }
 

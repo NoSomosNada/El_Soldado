@@ -4,12 +4,15 @@ using namespace std;
 
 class Arma
 {
+	friend class Escopeta;
+
+	
 public:
-	string* nombre;
+	const char* nombre;
 	
 	Arma();
 
-	void disparar();
+	virtual const char* disparar() = 0;
 	
 	~Arma();
 };

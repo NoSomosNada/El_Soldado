@@ -3,6 +3,7 @@
 class Escopeta :
     public Arma
 {
-  
+    Escopeta();
+    const char* disparar() override;
 };
 
