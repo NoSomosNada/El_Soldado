@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
-	cout << "Inicio del programa" << endl;
+	cout << "-== Bienvenido al campo de entrenamiento, Soldado ==-" << endl <<endl << endl;
+	cout << "¿Qué desea hacer?"<<endl;
 	return 0;
 }
