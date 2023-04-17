@@ -3,6 +3,7 @@
 class Rifle :
     public Arma
 {
+public:
     Rifle();
     const char* disparar() override;
 };

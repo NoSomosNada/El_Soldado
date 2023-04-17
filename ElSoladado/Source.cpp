@@ -6,8 +6,13 @@ using namespace std;
 
 int main() {
 	int opcion;
+	Soldado soldado;
+	Rifle rifle;
+	Revolver revolver;
+	Escopeta escopeta;
+	
 	do {
-		Soldado soldado;
+		
 		cout << "-== Bienvenido al campo de entrenamiento, Soldado ==-" << endl <<endl << endl;
 		cout << "¿Qué desea hacer?" << endl << endl;
 		cout << "1- Recoger arma"<<endl;
@@ -24,13 +29,30 @@ int main() {
 				cout << "2- Rifle" << endl;
 				cout << "3- Escopeta" << endl;
 				cout << "X- Volver atrás" << endl;
+				cin >> opcion;
+				switch (opcion)
+				{
+				case 1:
+					soldado.recogerArma(&revolver);
+					break;
+				case 2:
+					soldado.recogerArma(&rifle);
+					break;
+				case 3:
+					soldado.recogerArma(&escopeta);
+					break;
+				default:
+						break;
+				}
 			}
 			break;
 		case 2:
 			soldado.dejarArma();
+			system("CLS");
 			break;
 		case 3:
 			soldado.verArma();
+			system("CLS");
 			break;
 		default:
 			break;

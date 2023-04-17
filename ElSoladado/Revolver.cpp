@@ -1,7 +1,7 @@
 #include "Revolver.h"
 
 Revolver::Revolver() {
-	this->nombre = "Rifle";
+	this->nombre = "Revolver";
 }
 
 const char* Revolver::disparar()
