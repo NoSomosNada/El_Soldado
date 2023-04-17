@@ -38,7 +38,7 @@ void Soldado::verArma() {
 	if (tieneArma())
 		cout << "El solado tiene un: " << _arma->nombre << endl;
 	else
-		cout << "Parece que el soldado no tiene ningun arma een sus manos";
+		cout << "Parece que el soldado no tiene ningun arma en sus manos";
 }
 
 Soldado::~Soldado()
