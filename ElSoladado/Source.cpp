@@ -30,7 +30,7 @@ int main() {
 			soldado.dejarArma();
 			break;
 		case 3:
-			soldado.dejarArma();
+			soldado.verArma();
 			break;
 		default:
 			break;
