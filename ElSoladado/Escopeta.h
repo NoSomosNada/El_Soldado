@@ -1,5 +1,7 @@
 #pragma once
 #include "Arma.h"
+class Arma;
+
 class Escopeta :
     public Arma
 {

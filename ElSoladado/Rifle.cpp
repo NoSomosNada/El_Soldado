@@ -1,5 +1,6 @@
 #include "Rifle.h"
 
+
 Rifle::Rifle(){
 	this->nombre = "Rifle";
 }

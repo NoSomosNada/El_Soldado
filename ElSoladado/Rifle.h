@@ -1,6 +1,7 @@
+
 #pragma once
 #include "Arma.h"
-
+class Arma;
 
 class Rifle :
     public Arma
