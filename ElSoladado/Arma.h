@@ -10,9 +10,9 @@ using namespace std;
 
 class Arma
 {
-	//friend class Escopeta;
-	//friend class Revolver;
-	//friend class Rifle;
+	friend class Escopeta;
+	friend class Revolver;
+	friend class Rifle;
 
 public:
 	Arma();
