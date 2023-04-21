@@ -21,9 +21,6 @@
     <ClInclude Include="Soldado.h">
       <Filter>Librerias</Filter>
     </ClInclude>
-    <ClInclude Include="Arma.h">
-      <Filter>Librerias</Filter>
-    </ClInclude>
     <ClInclude Include="Escopeta.h">
       <Filter>Librerias\Tipos de Armas</Filter>
     </ClInclude>
@@ -31,6 +28,9 @@
       <Filter>Librerias\Tipos de Armas</Filter>
     </ClInclude>
     <ClInclude Include="Rifle.h">
+      <Filter>Librerias\Tipos de Armas</Filter>
+    </ClInclude>
+    <ClInclude Include="Arma.h">
       <Filter>Librerias\Tipos de Armas</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,11 +47,11 @@
     <ClCompile Include="Revolver.cpp">
       <Filter>Librerias\Tipos de Armas</Filter>
     </ClCompile>
-    <ClCompile Include="Arma.cpp">
-      <Filter>Librerias</Filter>
-    </ClCompile>
     <ClCompile Include="Soldado.cpp">
       <Filter>Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="Arma.cpp">
+      <Filter>Librerias\Tipos de Armas</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

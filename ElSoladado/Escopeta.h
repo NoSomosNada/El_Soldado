@@ -5,6 +5,6 @@ class Escopeta :
 {
 public:
     Escopeta();
-    const char* disparar() override;
+    const char* disparar();
 };
 

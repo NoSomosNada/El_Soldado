@@ -1,4 +1,5 @@
 #include "Escopeta.h"
+#include "Arma.h"
 
 
 Escopeta::Escopeta() {

@@ -7,9 +7,9 @@ using namespace std;
 int main() {
 	int opcion;
 	Soldado soldado;
-	Rifle rifle;
-	Revolver revolver;
-	Escopeta escopeta;
+	//Rifle rifle;
+	//Revolver revolver;
+	//Escopeta escopeta;
 	
 	do {
 		
@@ -33,13 +33,13 @@ int main() {
 				switch (opcion)
 				{
 				case 1:
-					soldado.recogerArma(&revolver);
+					//soldado.recogerArma(&revolver);
 					break;
 				case 2:
-					soldado.recogerArma(&rifle);
+					//soldado.recogerArma(&rifle);
 					break;
 				case 3:
-					soldado.recogerArma(&escopeta);
+					//soldado.recogerArma(&escopeta);
 					break;
 				default:
 						break;

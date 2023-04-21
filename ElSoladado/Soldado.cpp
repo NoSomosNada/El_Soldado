@@ -1,4 +1,5 @@
 #include "Soldado.h"
+//#include "Arma.h"
 #include <iostream>
 
 Soldado::Soldado()
