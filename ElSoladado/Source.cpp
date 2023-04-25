@@ -57,7 +57,7 @@ int main() {
 			break;
 		case 3:
 			soldado.disparar();
-			//system("CLS");
+			system("CLS");
 		case 4:
 			soldado.verArma();
 			system("CLS");
