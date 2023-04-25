@@ -10,11 +10,11 @@ using namespace std;
 
 class Arma
 {
+
+public:
 	friend class Escopeta;
 	friend class Revolver;
 	friend class Rifle;
-
-public:
 	Arma();
 	const char* nombre;
 	virtual const char* disparar() = 0;
