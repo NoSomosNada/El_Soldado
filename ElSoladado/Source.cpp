@@ -3,6 +3,7 @@
 #include "Rifle.h"
 #include "Escopeta.h"
 #include "Revolver.h"
+#include <Windows.h>
 
 using namespace std;
 
@@ -35,31 +36,38 @@ int main() {
 				switch (opcion)
 				{
 				case 1:
-					
 					soldado.recogerArma(&revolverArma);
+					Sleep(4000);
+					system("CLS");
 					break;
 				case 2:
 					
 					soldado.recogerArma(&rifleArma);
+					Sleep(4000);
+					system("CLS");
 					break;
 				case 3:
-					
 					soldado.recogerArma(&escopetaArma);
+					Sleep(4000);
+					system("CLS");
 					break;
 				default:
-						break;
+					break;
 				}
 			}
 			break;
 		case 2:
 			soldado.dejarArma();
+			Sleep(4000);
 			system("CLS");
 			break;
 		case 3:
 			soldado.disparar();
+			Sleep(10000);
 			system("CLS");
 		case 4:
 			soldado.verArma();
+			Sleep(4000);
 			system("CLS");
 			break;
 		default:
