@@ -1,4 +1,5 @@
 #include "Revolver.h"
+#include <iostream>
 
 Revolver::Revolver() {
 	this->nombre = "Revolver";
@@ -6,5 +7,6 @@ Revolver::Revolver() {
 
 const char* Revolver::disparar()
 {
+	cout << "Púm...";
 	return "Púm...";
 }

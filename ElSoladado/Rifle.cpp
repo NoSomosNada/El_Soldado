@@ -1,4 +1,5 @@
 #include "Rifle.h"
+#include <iostream>
 
 
 Rifle::Rifle(){
@@ -7,5 +8,6 @@ Rifle::Rifle(){
 
 const char* Rifle::disparar()
 {
+	cout << "Púm púm púm!...";
 	return "Púm púm púm!...";
 }

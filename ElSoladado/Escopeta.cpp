@@ -1,5 +1,5 @@
 #include "Escopeta.h"
-#include "Arma.h"
+#include <iostream>
 
 
 Escopeta::Escopeta() {
@@ -8,5 +8,6 @@ Escopeta::Escopeta() {
 
 const char* Escopeta::disparar()
 {
+	cout<< "¡Pááá!...";
 	return "¡Pááá!...";
 }
